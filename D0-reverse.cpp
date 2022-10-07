@@ -5,12 +5,12 @@ int main()
 {
     int number,reversed_num=0;
     cout << "Enter a number for find reverse" << endl;
-    cin>>number; //Taking a number as an input and stores number variable
+    cin>>number; 
     cout << "you entered: "<<number;
     for(; number!=0;){
         reversed_num=reversed_num*10;
        reversed_num=reversed_num+number%10;
-       number=number/10;//updating statements
+       number=number/10;
     }
     cout << "\nReversed number is: "<<reversed_num;
     getch();
